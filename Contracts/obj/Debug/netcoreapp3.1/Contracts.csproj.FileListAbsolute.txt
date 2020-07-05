@@ -1,0 +1,4 @@
+C:\Users\Hacker\Documents\GitHub\PipeCRM\Contracts\bin\Debug\netcoreapp3.1\Entities.dll
+C:\Users\Hacker\Documents\GitHub\PipeCRM\Contracts\obj\Debug\netcoreapp3.1\Contracts.csprojAssemblyReference.cache
+C:\Users\Hacker\Documents\GitHub\PipeCRM\Contracts\obj\Debug\netcoreapp3.1\Contracts.AssemblyInfoInputs.cache
+C:\Users\Hacker\Documents\GitHub\PipeCRM\Contracts\obj\Debug\netcoreapp3.1\Contracts.AssemblyInfo.cs
