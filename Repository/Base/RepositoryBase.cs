@@ -3,6 +3,7 @@ using Entities;
 using System;
 using System.Linq;
 using System.Linq.Expressions;
+using Microsoft.EntityFrameworkCore;
 
 namespace Repository
 {
@@ -16,27 +17,27 @@ namespace Repository
 
         public void Create(T entity)
         {
-            this.RepositoryContext.Set<T>.
+            this.RepositoryContext.Set<T>().Add(entity);
         }
 
         public void Delete(T entity)
         {
-            throw new NotImplementedException();
+            this.RepositoryContext.Set<T>().Remove(entity);
         }
 
         public IQueryable<T> FindAll()
         {
-            throw new NotImplementedException();
+            return this.RepositoryContext.Set<T>().AsNoTracking();
         }
 
         public IQueryable<T> FindByCondition(Expression<Func<T, bool>> expression)
         {
-            throw new NotImplementedException();
+            return this.RepositoryContext.Set<T>().Where(expression).AsNoTracking();
         }
 
         public void Update(T entity)
         {
-            throw new NotImplementedException();
+            this.RepositoryContext.Set<T>().Update(entity);
         }
     }
 }
