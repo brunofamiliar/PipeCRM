@@ -1,5 +1,6 @@
 ﻿using Contracts;
 using Entities;
+using Entities.Models;
 using System;
 
 namespace Repository
@@ -8,7 +9,17 @@ namespace Repository
     {
 
         private RepositoryContext _repositoryContext;
-        public IUserRepositoy userRepositoy => throw new NotImplementedException();
+        private IUserRepository userRepository;
+
+        public IUserRepository UserRepository { get 
+            { if (userRepository == null) 
+                {
+                    userRepository = new UserRepository(_repositoryContext);
+                }
+                return userRepository; 
+            } }
+
+        IUserRepository IRepositoryWrapper.userRepository => throw new NotImplementedException();
 
         public void Save()
         {

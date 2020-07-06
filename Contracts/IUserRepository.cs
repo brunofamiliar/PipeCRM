@@ -5,7 +5,7 @@ using System.Collections.Generic;
 
 namespace Contracts
 {
-    public interface IUserRepositoy : IRepositoryBase<User>
+    public interface IUserRepository : IRepositoryBase<User>
     {
         User FindUserByRID(string RID);
         void CreateRanger(List<User> users);

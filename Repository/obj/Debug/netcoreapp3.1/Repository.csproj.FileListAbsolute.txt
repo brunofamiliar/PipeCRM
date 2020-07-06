@@ -3,3 +3,12 @@ C:\Users\Hacker\Documents\GitHub\PipeCRM\Repository\bin\Debug\netcoreapp3.1\Enti
 C:\Users\Hacker\Documents\GitHub\PipeCRM\Repository\obj\Debug\netcoreapp3.1\Repository.csprojAssemblyReference.cache
 C:\Users\Hacker\Documents\GitHub\PipeCRM\Repository\obj\Debug\netcoreapp3.1\Repository.AssemblyInfoInputs.cache
 C:\Users\Hacker\Documents\GitHub\PipeCRM\Repository\obj\Debug\netcoreapp3.1\Repository.AssemblyInfo.cs
+C:\Users\Hacker\Documents\GitHub\PipeCRM\Repository\obj\Debug\netcoreapp3.1\Repository.csproj.CoreCompileInputs.cache
+C:\Users\Hacker\Documents\GitHub\PipeCRM\Repository\bin\Debug\netcoreapp3.1\Repository.deps.json
+C:\Users\Hacker\Documents\GitHub\PipeCRM\Repository\bin\Debug\netcoreapp3.1\Repository.dll
+C:\Users\Hacker\Documents\GitHub\PipeCRM\Repository\bin\Debug\netcoreapp3.1\Repository.pdb
+C:\Users\Hacker\Documents\GitHub\PipeCRM\Repository\bin\Debug\netcoreapp3.1\Contracts.pdb
+C:\Users\Hacker\Documents\GitHub\PipeCRM\Repository\bin\Debug\netcoreapp3.1\Entities.pdb
+C:\Users\Hacker\Documents\GitHub\PipeCRM\Repository\obj\Debug\netcoreapp3.1\Repository.csproj.CopyComplete
+C:\Users\Hacker\Documents\GitHub\PipeCRM\Repository\obj\Debug\netcoreapp3.1\Repository.dll
+C:\Users\Hacker\Documents\GitHub\PipeCRM\Repository\obj\Debug\netcoreapp3.1\Repository.pdb

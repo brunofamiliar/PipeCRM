@@ -22,7 +22,6 @@ namespace PipeCRM
         public void ConfigureServices(IServiceCollection services)
         {
 
-            services.ConfigureRepositoryWrapper();
 
             services.AddControllersWithViews();
             // In production, the Angular files will be served from this directory
@@ -30,7 +29,7 @@ namespace PipeCRM
             {
                 configuration.RootPath = "ClientApp/dist";
             });
-
+            services.ConfigureRepositoryWrapper();
             services.AddSwaggerGen();
         }
 

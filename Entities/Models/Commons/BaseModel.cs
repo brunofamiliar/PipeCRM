@@ -7,7 +7,7 @@ namespace Entities.Models.Commons
     public class BaseModel
     {
         public int Id { get; set; }
-        public string RID { get; set; } = Utils.Randonizer.GenerateRID(25);
+        public string RID { get; set; } = Utilities.Randonizer.GenerateRID(25);
         public DateTime Registro { get; set; } = DateTime.UtcNow;
 
     }
